@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-roadmap-examples",
+  "version": "1.0.0",
+  "description": "Nodejs concepts with examples",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesh01/nodejs-roadmap-examples.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "commonjs"
+  ],
+  "author": "Ramesh H B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesh01/nodejs-roadmap-examples/issues"
+  },
+  "homepage": "https://github.com/ramesh01/nodejs-roadmap-examples#readme"
+}
