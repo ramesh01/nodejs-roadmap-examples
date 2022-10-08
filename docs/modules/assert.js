@@ -1,3 +1,10 @@
+/**
+ * The exports variable is available within a module's file-level scope, 
+ * and is assigned the value of module.exports before the module is evaluated.
+ * 
+ * module.exports = exports = function Constructor() { // ... etc. };
+ */
+
 const assert = require('node:assert').strict;
 
 // Generate an AssertionError to compare the error message later:

@@ -8,3 +8,5 @@
  */
 
 console.log('Helo world');
+console.log(__dirname);
+console.log(__filename);
