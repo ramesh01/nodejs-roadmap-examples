@@ -4,7 +4,7 @@ const path = require("path");
 const fileOp = async () => {
     try {
         const data = await fsPromises.readFile(path.join(__dirname, 'newsample.txt'), 'utf8');
-        await fsPromises.writeFile(path.join(__dirname, 'newsample.txt'), 'Fuck my life');
+        await fsPromises.writeFile(path.join(__dirname, 'newsample.txt'), 'code my life');
         // delete file
         // await fsPromises.unlink(path.join(__dirname, 'sample.txt'));
         console.log(data);
@@ -27,7 +27,7 @@ fileOp();
 // });
 
 // // Write data
-// fs.writeFile(path.join(__dirname, 'sample.txt'), 'Fuck my life', (err) => {
+// fs.writeFile(path.join(__dirname, 'sample.txt'), 'code my life', (err) => {
 //     if (err) throw err;
 
 //     // Append data
